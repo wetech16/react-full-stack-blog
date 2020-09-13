@@ -4,8 +4,11 @@ A basic blog built to demonstrate the full stack 🥞 (client, server, database)
 
 With the following features:
 
-![example-site](google.com)
+## Font End
 
-## Objectives
+- [ ] 📝 Navigation Menu
 
-- [ ] 📝 Diagram the Full Stack
+  - [ ] 📝 add node-sass sass-loader
+  - [ ] add navLinks, <nav>, <ul>, <li>
+  - [ ] add react-router react-router-dom
+        //left at 25:08
