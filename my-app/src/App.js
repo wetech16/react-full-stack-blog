@@ -1,5 +1,6 @@
 import React from "react";
 import Navigation from "./components/navigation";
+import PageRenderer from "./page-renderer";
 import {
   BrowserRouter as Router,
   Switch,
@@ -9,8 +10,13 @@ import {
 function App() {
   return (
     <Router>
-      <div>
+      <div className="App">
         <Navigation />
+        <Switch>
+          <Route path="/:page" component={PageRenderer} />
+          <Route path="/" render={() => <Redirect to="/home" />} />
+          <Route component={() => 404} />
+        </Switch>
       </div>
     </Router>
   );
