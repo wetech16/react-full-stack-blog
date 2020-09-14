@@ -20,3 +20,12 @@ With the following features:
     - [ ] require ./page
     - [ ] useRouteMatch()
     - [ ] Pages folder/ each page component
+
+- [ ] Responsive Navigation Menu
+  - [ ] add antd @quasar/extras
+    - Ant design style
+  - [ ] style avatar
+  - [ ] style body: add html body
+  - [ ] icon
+  - [ ] media query to set menu-content-container while its active
+  - [ ] side pop menu using display flex
