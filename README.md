@@ -11,7 +11,7 @@ With the following features:
 - [ ] 📝 Navigation Menu
 
   - [ ] 📝 add node-sass sass-loader
-  - [ ] add navLinks, <nav>, <ul>, <li>
+  - [ ] add navLinks, nav, ul, li
   - [ ] add react-router react-router-dom
         //left at 25:08
   - [ ] Switch Route for 3 catagory
@@ -22,6 +22,7 @@ With the following features:
     - [ ] Pages folder/ each page component
 
 - [ ] Responsive Navigation Menu
+
   - [ ] add antd @quasar/extras
     - Ant design style
   - [ ] style avatar
@@ -29,3 +30,10 @@ With the following features:
   - [ ] icon
   - [ ] media query to set menu-content-container while its active
   - [ ] side pop menu using display flex
+
+- [ ] CSS Grids, Flex Box
+  - [ ] add moment
+  - [ ] add container
+  - [ ] add mocks-features
+  - [ ] add masonry-post & post-masonry
+  - [ ] add masonry-style & post-masonry
