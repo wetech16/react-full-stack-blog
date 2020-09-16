@@ -3,10 +3,10 @@
 @import "./home";
 @import "./masonry-post";
 @import "./post-masonry";
-
-html body {
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif;
+@import "./tag-row";
+@import "./post-grid" html body {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont,
+    "segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-weight: 500;
   margin: 0;
   background-color: $background;

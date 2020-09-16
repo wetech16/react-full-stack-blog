@@ -32,8 +32,11 @@ With the following features:
   - [ ] side pop menu using display flex
 
 - [ ] CSS Grids, Flex Box
+
   - [ ] add moment
   - [ ] add container
   - [ ] add mocks-features
   - [ ] add masonry-post & post-masonry
   - [ ] add masonry-style & post-masonry
+
+- [ ] React hooks, Pagination
