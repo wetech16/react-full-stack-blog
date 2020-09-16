@@ -29,7 +29,8 @@ const mergeStyles = function (posts, config) {
   posts.forEach((post, index) => {
     post.style = config[index];
     post.author = "Miguel Coder";
-    post.description = "lorem ipsum dolor sit amet, consetcue";
+    post.description =
+      "lorem ipsum dolor sit amet, consetcue lorem ipsum dolor sit amet, consetcuelorem ipsum dolor sit amet, consetcue";
   });
 };
 
@@ -54,12 +55,16 @@ export default function home() {
           </section>
         </div>
       </section>
-      <section className="container">
-        <div className="row">
-          <h1>Recent Posts</h1>
-          <PostGrid posts={recentPosts} />
-        </div>
+
+      <section className="bg-white">
+        <section className="container">
+          <div className="row">
+            <h1>Recent Posts</h1>
+            <PostGrid posts={recentPosts} />
+          </div>
+        </section>
       </section>
+
       <section className="container">
         <div className="row">
           <PostMasonry posts={trending} columns={3} />

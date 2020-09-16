@@ -29,4 +29,18 @@ export default [
     link: "#",
     image: "neutron.jpg",
   },
+  {
+    title: "Can anyone code",
+    date: moment().format("MMMM DD, YYYY"),
+    categories: ["Tech Culture", "Tech News"],
+    link: "#",
+    image: "anyone_can_code.jpg",
+  },
+  {
+    title: "Using AWS S3 for storing Blog Images",
+    date: moment().format("MMMM DD, YYYY"),
+    categories: ["Cloud"],
+    link: "#",
+    image: "cloud_storage.jpg",
+  },
 ];
