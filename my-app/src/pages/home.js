@@ -29,7 +29,8 @@ const mergeStyles = function (posts, config) {
   posts.forEach((post, index) => {
     post.style = config[index];
     post.author = "Miguel Coder";
-    post.description = "lorem ipsum dolor sit amet, consetcue";
+    post.description =
+      "lorem ipsum dolor sit amet, consetcue lorem ipsum dolor sit amet, consetcuelorem ipsum dolor sit amet, consetcue";
   });
 };
 

@@ -5,7 +5,7 @@ const categoryColors = {
   Vue: "rgb(52,199,89)",
   React: "rgb(64,156,255)",
   JavaScript: "rgb(255,179,64)",
-  Cloud: "rgn(175,82,250)",
+  Cloud: "rgb(175,82,250)",
 };
 
 export { categoryColors };
