@@ -9,7 +9,6 @@
   "author": "Stephen Guo",
   "license": "ISC",
   "dependencies": {
-    "apollo": "^2.30.3",
     "apollo-server-koa": "^2.17.0",
     "graphql-tools": "^6.2.2",
     "koa": "^2.13.0",
