@@ -63,4 +63,4 @@ With the following features:
   npm run create-migration -- --tableName=roles
   -run migrtion; package json: run-migration: "node ./actions/run-migrations"
   -add run-migration file for migrating sql to db
-  add bluebird for promise.each loop
+  add bluebird for promise.each loop -[ ] seeds: record for db
