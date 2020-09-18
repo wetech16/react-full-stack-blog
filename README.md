@@ -40,3 +40,27 @@ With the following features:
   - [ ] add masonry-style & post-masonry
 
 - [ ] React hooks, Pagination
+
+- [ ] Apollo, GraphQL, NodeJS
+      -add "apollo-server-koa", "graphql-tools", "koa", "moment" in graphql folder -[ ] MySQL setpup and DB architecture
+      -add mysql2 knex dotenv
+      -gitignore ingore file
+      -create .env database
+      -create mysql.js
+      -creaete db: brew install mysql
+      -mysql.server start
+      mysql -u root -p //create mysql user
+      create database if not exists react_blog;
+      show databases; or show schemas;
+      -run database: exit mysql and run node ./database/actions/db-connect.js
+
+- [ ] MySQL Migrations & Seeds
+
+  -[ ] Migrations from MySQL
+  -create-migration.js
+  -package json -node create-migration.js
+  -create db.sql
+  npm run create-migration -- --tableName=roles
+  -run migrtion; package json: run-migration: "node ./actions/run-migrations"
+  -add run-migration file for migrating sql to db
+  add bluebird for promise.each loop
