@@ -52,4 +52,15 @@ With the following features:
       mysql -u root -p //create mysql user
       create database if not exists react_blog;
       show databases; or show schemas;
-      -exit mysql and run node ./database/actions/db-connect.js
+      -run database: exit mysql and run node ./database/actions/db-connect.js
+
+- [ ] MySQL Migrations & Seeds
+
+  -[ ] Migrations from MySQL
+  -create-migration.js
+  -package json -node create-migration.js
+  -create db.sql
+  npm run create-migration -- --tableName=roles
+  -run migrtion; package json: run-migration: "node ./actions/run-migrations"
+  -add run-migration file for migrating sql to db
+  add bluebird for promise.each loop
