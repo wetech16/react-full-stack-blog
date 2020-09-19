@@ -5,7 +5,7 @@ CREATE TABLE IF NOT EXISTS {}.roles_permissions (
     CONSTRAINT fk_rprole FOREIGN KEY (role_id)
     REFERENCES roles(id)
     ON DELETE CASCADE
-    ON UPDATE CASCADE
+    ON UPDATE CASCADE,
     CONSTRAINT fs_rppermission FOREIGN KEY (permission_id)
     REFERENCES permissions(id)
     ON DELETE CASCADE

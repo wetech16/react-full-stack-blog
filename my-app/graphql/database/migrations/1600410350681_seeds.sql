@@ -1,9 +1,9 @@
-INSERT INTO roles(title)
+INSERT INTO roles (title)
 VALUES 
 ('admin'),
 ('blogger');
 
-INSERT INTO permissions(action)
+INSERT INTO permissions (action)
 VALUES
 ('post'),
 ('manage-users');
@@ -11,7 +11,6 @@ VALUES
 INSERT INTO roles_permissions (role_id, permission_id)
 VALUES
 (1, 1),
-(1, 2),
 (2, 1);
 
 INSERT INTO users(role_id, email, first_name, last_name)

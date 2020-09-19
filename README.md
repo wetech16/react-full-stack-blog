@@ -47,7 +47,7 @@ With the following features:
       -gitignore ingore file
       -create .env database
       -create mysql.js
-      -creaete db: brew install mysql
+      -install mysql: brew install mysql
       -mysql.server start
       mysql -u root -p //create mysql user
       create database if not exists react_blog;
