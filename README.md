@@ -57,11 +57,11 @@ With the following features:
 
 - [ ] MySQL Migrations & Seeds
 
-  -[ ] Migrations from MySQL
-  -create-migration.js
-  -package json -node create-migration.js
-  -create db.sql
-  npm run create-migration -- --tableName=roles
-  -run migrtion; package json: run-migration: "node ./actions/run-migrations"
-  -add run-migration file for migrating sql to db
-  add bluebird for promise.each loop
+  - [ ] Migrations from MySQL
+  - create-migration.js
+  - package json -node create-migration.js
+  - create db.sql
+      - npm run create-migration -- --tableName=roles
+  - run migrtion; package json: run-migration: "node ./actions/run-migrations"
+  - add run-migration file for migrating sql to db
+      - add bluebird for promise.each loop
